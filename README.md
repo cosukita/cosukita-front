@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌸 Cosukita — Your Ultimate Anime Costume Marketplace 🇮🇩  
 
-## Getting Started
+> _"From dream to dress — find your perfect cosplay fit!"_
 
-First, run the development server:
+Cosukita is an Indonesian platform built **by otakus, for otakus**, where you can **buy, sell, and rent anime costumes** from all around the city.  
+Whether you’re a pro cosplayer or just vibin’ for your first con — we gotchu. 💫  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🎭 **Buy & Sell Costumes** — Find authentic, high-quality cosplay outfits from trusted sellers.
+- 🔄 **Rent System** — Don’t wanna own it? Rent it for your next event or photoshoot.
+- 🏙️ **City-Based Search** — Discover costumes available near your city for easier pickup.
+- 💬 **Community Vibes** — Chat, share, and rate your experiences with other cosplayers.
+- 🔐 **Safe & Verified** — Each transaction goes through our built-in trust & verify system.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 💡 Why Cosukita?
 
-To learn more about Next.js, take a look at the following resources:
+Because Indonesia’s cosplay community deserves more than messy DMs and random Telegram deals 😭  
+Cosukita bridges passion, creativity, and safety — turning cosplay culture into something **accessible and professional**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> “No more scams, no more hassle — just pure otaku drip.” 🖤
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧠 Future Plans
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🛒 In-app wallet & transaction safety system  
+- 📦 Delivery integration (GoSend / GrabExpress)  
+- 🧍 Verified seller badges  
+- 🎉 Cosukita Fest — virtual cosplay event system  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🖤 Made for the Community
+
+Cosukita isn’t just a marketplace — it’s a love letter to Indonesian cosplayers.  
+Built to empower creativity, share culture, and make anime dreams a little more real.
+
+> ✨ _"Cosplay bukan cuma hobi — ini gaya hidup."_ ✨  
+
+---
+
+### 🪩 Connect With Us
+
+🌐 [cosukita.id](https://cosukita.id/)  
+🐦 [@cosukita_official](https://x.com/cosukita_official)  
+📸 [@cosukita.id](https://instagram.com/cosukita.id)
+
+---
+
+**💫 Cosukita — Where Every Cosplay Story Begins.**
