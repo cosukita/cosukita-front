@@ -1,0 +1,9 @@
+
+echo "\n 🔨 Type Check"
+npm run type-check
+
+echo "\n 🔨 Running lint-staged"
+bunx lint-staged
+
+echo "\n 🔨 Running production build before push"
+bun run build

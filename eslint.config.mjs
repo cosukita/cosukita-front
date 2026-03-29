@@ -3,7 +3,6 @@ import nextVitals from "eslint-config-next/core-web-vitals";
 import nextTs from "eslint-config-next/typescript";
 
 import tsParser from "@typescript-eslint/parser";
-import tsPlugin from "@typescript-eslint/eslint-plugin";
 import unusedImports from "eslint-plugin-unused-imports";
 import importPlugin from "eslint-plugin-import";
 import reactPlugin from "eslint-plugin-react";
@@ -27,7 +26,7 @@ export default defineConfig([
     },
 
     plugins: {
-      "@typescript-eslint": tsPlugin,
+      // ❌ removed "@typescript-eslint"
       "unused-imports": unusedImports,
       import: importPlugin,
       react: reactPlugin,
@@ -40,7 +39,6 @@ export default defineConfig([
     },
 
     rules: {
-      // Unused imports
       "unused-imports/no-unused-imports": "warn",
 
       "@typescript-eslint/no-unused-vars": [
@@ -52,7 +50,6 @@ export default defineConfig([
         },
       ],
 
-      // Import order
       "import/order": [
         "error",
         {
@@ -74,11 +71,9 @@ export default defineConfig([
         },
       ],
 
-      // Disable triple slash reference rule
       "@typescript-eslint/triple-slash-reference": "off",
     },
   },
 
-  // Override default ignores of eslint-config-next
   globalIgnores([".next/**", "out/**", "build/**", "next-env.d.ts"]),
 ]);

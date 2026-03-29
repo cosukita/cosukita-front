@@ -47,10 +47,10 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="bg-[#FFD1DC] w-full min-h-8 p-8 flex items-center justify-center text-neutral-950">
-      <div className="max-w-7xl w-full space-y-4 flex flex-col">
+    <footer className="flex min-h-8 w-full items-center justify-center bg-[#FFD1DC] p-8 text-neutral-950">
+      <div className="flex w-full max-w-7xl flex-col space-y-4">
         <div className="flex items-start justify-between gap-8">
-          <div className="w-1/2 flex items-start space-x-4">
+          <div className="flex w-1/2 items-start space-x-4">
             <Image
               src="/assets/Cosukita transparent.png"
               alt="Cosukita"
@@ -70,9 +70,9 @@ export default function Footer() {
               </p>
             </div>
           </div>
-          <div className="w-1/2 grid grid-cols-12 grid-flow-col gap-4">
+          <div className="grid w-1/2 grid-flow-col grid-cols-12 gap-4">
             <div className="col-span-6">
-              <h1 className="text-2xl font-semibold text-[#78555E] mb-1">
+              <h1 className="mb-1 text-2xl font-semibold text-[#78555E]">
                 Follow Us!
               </h1>
               {followUsLinks.map((link) => (
@@ -81,7 +81,7 @@ export default function Footer() {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center space-x-2 text-base font-light text-[#CAA0AB] transition-colors ease-out duration-300 hover:text-[#926D77]"
+                  className="flex items-center space-x-2 text-base font-light text-[#CAA0AB] transition-colors duration-300 ease-out hover:text-[#926D77]"
                 >
                   {link.icon}
                   <span>{link.title}</span>
@@ -89,7 +89,7 @@ export default function Footer() {
               ))}
             </div>
             <div className="col-span-6">
-              <h1 className="text-2xl font-semibold text-[#78555E] mb-1">
+              <h1 className="mb-1 text-2xl font-semibold text-[#78555E]">
                 Contact Us!
               </h1>
               {contactLinks.map((link) => (
@@ -98,7 +98,7 @@ export default function Footer() {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center space-x-2 text-base font-light text-[#CAA0AB] transition-colors ease-out duration-300 hover:text-[#926D77]"
+                  className="flex items-center space-x-2 text-base font-light text-[#CAA0AB] transition-colors duration-300 ease-out hover:text-[#926D77]"
                 >
                   {link.icon}
                   <span>{link.title}</span>
@@ -107,7 +107,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="w-full flex flex-col items-center justify-start space-y-2">
+        <div className="flex w-full flex-col items-center justify-start space-y-2">
           <Separator className="bg-neutral-950" />
           <span>&copy; {dayjs().year()} Cosukita. All rights reserved.</span>
         </div>
