@@ -1,11 +1,12 @@
-import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
 import { cn } from "@/common/lib/utils";
 import { ThemeProvider } from "@/components/provider/theme-provider";
-import Nav from "@/components/ui/custom/nav/nav";
 import Footer from "@/components/ui/custom/footer/footer";
+import Nav from "@/components/ui/custom/nav/nav";
+
+import type { Metadata } from "next";
 
 const spaceGrostesk = Space_Grotesk({
   variable: "--font-sans",
