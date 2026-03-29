@@ -16,6 +16,11 @@ const spaceGrostesk = Space_Grotesk({
 export const metadata: Metadata = {
   title: "💫 Cosukita",
   description: "💫 Cosukita — Where Every Cosplay Story Begins.",
+  authors: [{ name: "Abel Dustin", url: "https://github.com/astrvon" }],
+  creator: "Cosukita",
+  icons: {
+    icon: "/assets/Cosukita transparent.png",
+  },
 };
 
 export default function RootLayout({

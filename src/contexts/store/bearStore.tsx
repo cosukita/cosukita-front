@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
+
 import { STORAGE_NAME } from "@/contexts/storageName";
 
 export interface BearStore {
